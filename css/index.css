@@ -1,0 +1,70 @@
+canvas {
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+p {
+	margin: 0 0;
+	position: absolute;
+	font: 16px Verdana;
+	color: #eee;
+	height: 25px;
+	top: calc( 100vh - 30px );
+	text-shadow: 0 0 2px white;
+}
+p a {
+	text-decoration: none;
+	color: #aaa;
+}
+span {
+	font-size: 11px;
+}
+p > a:first-of-type {
+	font-size: 20px;
+}
+body {
+	overflow: hidden;
+}
+
+table{
+    color: white;
+    position: absolute;
+    z-index: 2;
+}
+
+.test{
+    width: 100%;
+    margin: auto;
+    margin-top: 40vh;
+    margin-left: 15vw;
+}
+
+input{
+    background: transparent !important;
+    outline: none;
+    box-shadow: transparent;
+    height:30px;
+    color: white;
+    border: 1px solid white;
+    border-radius: 20px;
+    text-indent: 10px;
+    margin-top:10px;
+    margin-left: 30px;
+}
+
+label{
+    margin-top: 5px;
+    position: absolute;
+    margin-left: -34px;
+}
+
+.btn{
+    height:30px;
+    color:black;
+    background: white;
+    width: 100px;
+    border-radius: 20px;
+    margin-top:10px;
+    cursor: pointer;
+    margin-left:-50px;
+}
